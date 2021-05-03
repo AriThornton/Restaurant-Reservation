@@ -73,5 +73,5 @@ module.exports = {
   create: [asyncErrorBoundary(validateNewTable), asyncErrorBoundary(create)],
   read: [asyncErrorBoundary(tableExists), asyncErrorBoundary(read)],
   list: [asyncErrorBoundary(list)],
-  tableExists,
+  tableExists: [asyncErrorBoundary(tableExists)],
 }

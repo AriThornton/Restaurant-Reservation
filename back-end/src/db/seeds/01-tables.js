@@ -1,3 +1,4 @@
+const tables = require("./tables");
 
 exports.seed = function(knex) {
   return knex

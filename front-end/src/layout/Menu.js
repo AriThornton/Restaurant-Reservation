@@ -34,9 +34,7 @@ const Menu = () => {
           >
             <div className='mx-3'>
               <span>
-                Periodic
-                <br />
-                Tables
+                Periodic Tables
               </span>
             </div>
           </Link>

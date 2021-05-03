@@ -49,6 +49,7 @@
   "author": "Thinkful, Inc.",
   "license": "UNLICENSED",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "react-icons": "^4.2.0"
   }
 }
